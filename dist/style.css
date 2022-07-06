@@ -1,0 +1,87 @@
+.strtbtn{
+    font-family: 'Bakbak One', cursive;
+    margin-top: 30%;
+    color: rgb(252, 250, 245);
+    
+
+}
+
+
+
+
+.botphoto img{
+    max-width: 150%;
+    border-radius: 50%;
+    
+}
+
+.revc{
+   border-radius: 20px;
+}
+
+.contact img{
+     
+    max-width: 60px;
+    margin-right: 25px;
+    
+    
+
+}
+
+.contact img:hover{
+    background-color: white;
+    border-radius: 20px;
+}
+
+#Contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: whitesmoke;
+    background-color: rgb(49, 47, 47);
+}
+
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+    font-weight: 500;
+}
+
+.socials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 1rem 0 3rem 0;
+    
+}
+
+.socials li{
+    margin: 0 10px;
+}
+
+.socials a{
+    text-decoration: none;
+    color:#fff;
+}
+
+.socials a i{
+    font-size: 1.1rem;
+    transition: color 0.4s ease;   
+}
+
+.socials a:hover i{
+    color: aqua;
+    
+}
+
+.footer-bottom{
+    background: black;
+    width: 100vw;
+    padding: 2px 0;
+    opacity: 0.4;
+}
